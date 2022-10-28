@@ -1,0 +1,12 @@
+name: Lint commit messages
+
+on: push
+
+jobs:
+  commitlint:
+    runs-on: ubuntu-latest
+    name: Lint commit messages
+
+    steps:
+       - name: Lint commit messages
+         uses: wintero92/commitlint_action@master
