@@ -1,7 +1,5 @@
 # wopee
 
-A B
-
 wopee
 
 ## Installation
